@@ -8,7 +8,7 @@ export const MENU_ITEMS: FoodItem[] = [
     name: 'Nostalgic Maggi',
     price: 49,
     category: 'All',
-    image: 'https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?q=80&w=800&auto=format&fit=crop',
+    image: '/maggi.jpg',
     description: 'The ultimate midnight comfort bowl, just like home.'
   },
   {
@@ -16,7 +16,7 @@ export const MENU_ITEMS: FoodItem[] = [
     name: 'Cold Coffee',
     price: 79,
     category: 'All',
-    image: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=800&auto=format&fit=crop',
+    image: '/coffee.jpg',
     description: 'Ice-cold, bold fuel for your late-night grind.'
   },
   {
@@ -24,7 +24,7 @@ export const MENU_ITEMS: FoodItem[] = [
     name: 'Snacks',
     price: 79,
     category: 'All',
-    image: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?q=80&w=800&auto=format&fit=crop',
+    image: '/snacks.jpg',
     description: 'Crispy, addictive bites to crush your cravings.'
   }
 ];
