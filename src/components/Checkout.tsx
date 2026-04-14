@@ -15,7 +15,7 @@ export default function Checkout({ items, onPlaceOrder }: CheckoutProps) {
   });
 
   const subtotal = items.reduce((sum, item) => sum + item.price * item.quantity, 0);
-  const deliveryFee = 15;
+  const deliveryFee = 19;
   const total = subtotal + deliveryFee;
 
   const handleSubmit = (e: React.FormEvent) => {
